@@ -190,3 +190,43 @@
                 header.classList.replace('py-2', 'py-4');
             }
         });
+
+        // --- 7. MOBILE MENU LOGIC ---
+const menuBtn = document.getElementById('menu-btn');
+const mobileMenu = document.getElementById('mobile-menu');
+const mobileLinks = document.querySelectorAll('.mobile-link');
+
+let menuOpen = false;
+
+function toggleMobileMenu() {
+    menuOpen = !menuOpen;
+
+    if (menuOpen) {
+        mobileMenu.classList.remove('translate-x-full');
+        document.body.classList.add('overflow-hidden');
+    } else {
+        mobileMenu.classList.add('translate-x-full');
+        document.body.classList.remove('overflow-hidden');
+    }
+}
+
+// Ouverture / fermeture via bouton
+menuBtn.addEventListener('click', toggleMobileMenu);
+
+// Fermeture lors du clic sur un lien
+mobileLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        mobileMenu.classList.add('translate-x-full');
+        document.body.classList.remove('overflow-hidden');
+        menuOpen = false;
+    });
+});
+
+// Fermeture automatique si écran desktop
+window.addEventListener('resize', () => {
+    if (window.innerWidth >= 768) {
+        mobileMenu.classList.add('translate-x-full');
+        document.body.classList.remove('overflow-hidden');
+        menuOpen = false;
+    }
+});
