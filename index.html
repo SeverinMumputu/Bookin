@@ -69,12 +69,25 @@
                     <!-- Badge -->
                     <span id="cart-badge" class="absolute top-0 right-0 bg-bookinGold text-bookinWhite text-xs font-bold rounded-full w-4 h-4 flex items-center justify-center opacity-0 transition-opacity">0</span>
                 </button>
-                <button class="md:hidden text-bookinWhite">
+                <button id="menu-btn" class="md:hidden text-bookinWhite">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
                 </button>
             </div>
         </div>
     </header>
+
+    <!-- MOBILE MENU -->
+<div id="mobile-menu" class="fixed top-0 right-0 w-full h-screen bg-bookinBlue/95 backdrop-blur-md z-40 transform translate-x-full transition-transform duration-300 md:hidden">
+    <div class="flex flex-col h-full pt-28 px-8">
+        <nav class="flex flex-col gap-6 text-xl font-medium text-bookinWhite">
+            <a href="#propos" class="mobile-link hover:text-bookinGold transition-colors">À Propos</a>
+            <a href="#catalogue" class="mobile-link hover:text-bookinGold transition-colors">Catalogue</a>
+            <a href="#reservation" class="mobile-link hover:text-bookinGold transition-colors">Réservation</a>
+            <a href="#equipe" class="mobile-link hover:text-bookinGold transition-colors">Équipe</a>
+            <a href="#actualites" class="mobile-link hover:text-bookinGold transition-colors">Actualités</a>
+        </nav>
+    </div>
+</div>
 
     <!-- HERO SECTION (Carousel) -->
     <section class="relative h-screen min-h-[600px] w-full overflow-hidden pt-20" id="hero">
