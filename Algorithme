@@ -1,0 +1,82 @@
+
+Le but est de concevoir un site premium corporate pour la maison de distribution Bookin.
+Bookin est une maison de distribution pour la promotion de la littérature congolaise. 
+La distribution des ouvrages des écrivains congolais et leur vente en République Démocratique du congo. 
+Bookin garantit un approvisionnemnt régulier en nouveaux titres et exemplaires des ouvrages et des amoureux et passionnés de la littérature.
+Son réseau de distribution efficace et assure une livraison rapide et fiable des livres aux consommateurs et aux autres points de vente partenaires.
+Bokin incarne l’excellence dans le domaine de la distribution des livres.
+
+Nous nous spécialisons dans la sélection, l’approvisionnement et la livraison des livres de qualité à travers la République Démocratique du Congo.
+Avec un catalogue diversifié comprennant des ouvrages diversifiés, notamment le roman, la poésie, la nou velle, le développemnt personnel et l’essai.
+Nous nous engageons à offrir une expérience enrichissante à ses consommateurs, aux lecteurs et aux écrivains et auteurs.
+Son équipe dévouée de professionels du livre assure un service clientèle de qualité, répon dant aux besoins et aux demandes des consommateurs 
+avec ef ficacité et courtoisie. Toujours à l’affut des dernières tendances, BOOKIN et PLUME DOREE s’efforcent d’innover et de s’adapter pour rester
+à la pointe de l’industrie du livre et offrir le meilleur service possible aux consommateurs du livre.
+
+Pour un aspect professionnel, le site doit avoir un header premium avec le logo de Bookin à gauche et les liens et l'icône panier à droite.
+Ensuite, on retrouve un Hero corporate doté d'un carroussel premium avec pagination relayant les livres à paraître, les communiqués, prochains évenements.
+A chaque clic sur l'icône panier, une popup premium apparaît relayant toutes les infos du livres, prix et autres. Une fois cliqué sur confirmer commande,
+une fonction logique redirigera le client vers Whatsaap. Cette fonction aura pour but le transfert des livres commandés sur Whatsaap pour permettre au client de nous montrer 
+les livres qu'ils désirent acheter.
+
+Le site doit être à l'image de Bookin c'est-à-dire présenter une section, un espace premium mettant en valeur les livres répartis selon plusieurs catalogues au travers d'un filtrage premium 
+qui va faciliter la classification des catalogues sciences et savoir, jeunesse, Roman et littérature, Manga & bande dessinée.
+Le filtrage est l'une des clés majeures de cette section. Un filtrage premium et corporate.
+Chaque bloc d'un livre doit contenir une icône svg rajouter au panier, nom de l'auteur, description du livre, prix du livre. 
+Il est impératif de gérer logiquement le transfert de livres dans le panier y compris les infos majeures concernant le livre.
+
+Une section Réservation des livres. Un espace premium et vitrine qui exposent les livres permettant aux lecteurs de réserver un livre. Un bloc premium dédié à chaque livre 
+contenant toutes les infos du livre. Le clic sur le bouton réserver nous rédirige vers le lien whatsaap business du site. 
+
+Une section TeamBookin où on présente l'équipe dirigente de Bookin avec une image en img présente dans chaque bloc d'un membre: 
+- Grady Bizaki
+Co-Fondateur et PDG Bookin
+En plus de son travail d'auteur, Grady est initié et cofondateur du collectif Les jeunes Talents et de Bookin
+,une extension de la maison de distribution Plume Dorée basée à Kinshasa. Il est également manager d'artistes et 
+journaliste-reporter et point focal du média CultureCongo dans la région Grand-Katanga, un média en ligne qui promeut la culture congolaise.
+
+- Maryse Kalenga Mandaila
+Fondatrice et initiatrice Plume Dorée
+Maryse Mandaila joue un role crucial dans la valorisation des talents littéraires, la diffusion de la culture et l'accompagnement des auteurs dans la maison
+d'édition Feuilles Folles où elle est secrétaire.
+
+- Bellarmin Kunga
+Agent littéraire
+Bellarmin est également un manager des talents et un entrepreneur, apportant son expertise à ceux qui aspirent à se développer dans le domaine littéraire. 
+Au sein de Plume Dorée/Bookin, il occupe le poste d'agent littéraire, où il joue un role clé dans la promotion et la valorisation des écrivains.
+
+- Cécile Mulumba Biayi
+secrétaire Générale
+Cécile est co-auteur du récueil de poèmes, Le Cri de ma nation (2024) une oeuvre qui reflète son engagement et sa créativité. 
+Dans notre maison, Elle occupe le poste de secrétaire Générale, où elle joue un role essentiel dans l'organisation et la coordination des activités.
+
+- Jemima Etuatala
+Secrétaire adjointe et caissière
+En tant que poètesse, Jemima est l'auteure de plusieurs récits inédits, explorant des thèmes profonds et variés à travers ses écrits. 
+Au sein de Plume Dorée/Bookin, elle occupe le poste de secrétaire adjointe et caissière de l'extension BOOKIN à Kinshasa, contribuant activement à la promotion de la littérature.
+
+- Séverin Mumputu
+Responsable Informatique
+Dans notre équipe, Séverin joue un role essentiel en tant que responsable Informatique, soutenant l'organisation et la distribution de nos oeuvres littéraires.
+
+Une section Partenariat où est affiché fièrement nos partenaires avec leurs logos en format img à travers un style premium.
+Bookin et Plume dorée mettent également en place des campagnes de promtions innovantes en étroite collaboration avec les maisons d'éditions, 
+notamment les maisons d'éditions Feuilles Folles pour mettre en avant les livres qu'elle distribue et pour attirer l'attention des lecteurs.
+Il est impératif de mettre les images(logo) des partenaires.
+
+Une section Actualités où nous vous tenons informés des dernières parutions ainsi que des livres très attendus qui seront bientot disponibles. 
+Restez à jour pour ne rien manquer des nouveaux ouvrages de vos auteurs préférés, des découvertes littéraires et des publications exclusives.
+On retrouve tout ce qu'il faut savoir concernant les livres. Une section d'informations premium dotée d'animation et un carrousel avec pagination.
+
+Une section pied de page premium relayant les liens du site, les réseaux sociaux (Whatsaap et Instagram) du site et autres, numéros de téléphones et adresses.
+
+Technologies à utiliser pour le site
+Structure et Architecture : HTML 5
+Style : CSS 3 & Tailwind UI 
+Interactions : Vanilla JS et JavaScript
+icône : Svg 
+Le style Tailwind CSS doit reposer sur ces couleurs : 
+1.Couleur principale (Blanc : #FFFFFF) doit être représentée, utilisée à 25 %
+2.Couleur secondaire (Bleu nuit institutionnel : HEX #0B1F3B) doit être représentée, utilisée à 60 %
+3.Couleur supplémentaire pour les animations, les boutons CTA (Or mat premium : HEX #C9A24D) doit être représentée, utilisée à 10 % 
+4.Couleur additionnelle pour le texte et autres( #000000) doit être représentée, utilisée à 5 %

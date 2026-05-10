@@ -1,0 +1,53 @@
+    body {
+            background-color: #0B1F3B;
+            color: #FFFFFF;
+        }
+        
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0B1F3B;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #C9A24D;
+            border-radius: 4px;
+        }
+
+        .hero-slide {
+            opacity: 0;
+            transition: opacity 0.8s ease-in-out;
+            position: absolute;
+            inset: 0;
+            z-index: 0;
+        }
+        .hero-slide.active {
+            opacity: 1;
+            z-index: 10;
+        }
+        
+        .gold-gradient-text {
+            background: linear-gradient(to right, #C9A24D, #e6c875, #C9A24D);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .filter-btn.active {
+            background-color: #C9A24D;
+            color: #FFFFFF;
+            border-color: #C9A24D;
+        }
+
+        /* Line clamping for descriptions */
+        .line-clamp-3 {
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;  
+            overflow: hidden;
+        }
+
+        .modal-overlay {
+            background: rgba(11, 31, 59, 0.9);
+            backdrop-filter: blur(5px);
+        }
