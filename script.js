@@ -151,7 +151,7 @@
             message += `%0A*Total de la commande : ${total}$*%0A%0AMerci de m'indiquer les modalités de paiement et de livraison.`;
 
             // Remplacer par le numéro WhatsApp réel de Bookin
-            const phoneNumber = "243000000000"; 
+            const phoneNumber = "243825879013"; 
             const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
             
             window.open(whatsappUrl, '_blank');

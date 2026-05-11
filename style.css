@@ -11,7 +11,7 @@
             background: #0B1F3B;
         }
         ::-webkit-scrollbar-thumb {
-            background: #C9A24D;
+            background: #E64D23;
             border-radius: 4px;
         }
 
@@ -28,15 +28,15 @@
         }
         
         .gold-gradient-text {
-            background: linear-gradient(to right, #C9A24D, #e6c875, #C9A24D);
+            background: linear-gradient(to right, #E64D23, #e6c875, #E64D23);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
 
         .filter-btn.active {
-            background-color: #C9A24D;
+            background-color: #E64D23;
             color: #FFFFFF;
-            border-color: #C9A24D;
+            border-color: #E64D23;
         }
 
         /* Line clamping for descriptions */
